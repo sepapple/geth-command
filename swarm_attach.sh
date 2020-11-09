@@ -1,4 +1,4 @@
 #!bin/sh
-geth attach ~/Test/bzzd.ipc
+geth attach ~/private-net/bzzd.ipc
 
 
