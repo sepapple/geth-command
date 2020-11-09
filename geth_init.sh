@@ -1,1 +1,1 @@
-geth --datadir ~/Test --networkid 15 init ~/Test/genesis.json
+geth --datadir ~/private-net --networkid 15 init ~/private-net/genesis.json
