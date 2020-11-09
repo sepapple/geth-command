@@ -1,6 +1,6 @@
 #!bin/sh
-geth --exec='admin.addPeer("enode://7baf9f53a194b0593df80628362e60376c4efeda472ac64bbc9ed94d2643116a842c25d30014071372d3a090e709d50312a5a9f176683f1376bad6098c7e23a7@192.168.30.28:30399")' attach ~/Test/bzzd.ipc
-geth --exec='admin.addPeer("enode://633f0f03ae0faf2ed4f1fae99f9d9d1238f44dbd52640ec7f6a9516f4c79d347625e5fa7ec5a14be8e76833afa6e8b123b812338ea6f91581f4503c72778db9d@192.168.30.27:30399")' attach ~/Test/bzzd.ipc
-geth --exec='admin.addPeer("enode://28cee57c760ff460400cb91df234ed5fc19f8cc89835bc507bc9782297797069250f573335f57d449302951eeda6fd4166f868d9f4b72d740efa4d20a8a507e0@192.168.30.30:30399")' attach ~/Test/bzzd.ipc
+geth --exec='admin.addPeer("enode://64b2fe58ad1a9e02584b4b4142990753ef20491760da4b794fb04d9bb375373a80256235b15d79b65c9fc0ba97e21de0456995c99679dfe25ae3b52b74e81157@192.168.30.30:30399")' attach ~/private-net/bzzd.ipc
+geth --exec='admin.addPeer("enode://2218066dada6ab5e6a3df2c2ed0f574f592f9410546f71db3367cd8e867e5ccaeb74c577ffcdcfa94de3f9e189de9b21ed2839558a1623cf51ef4562e6e19cb8@192.168.30.28:30399")' attach ~/private-net/bzzd.ipc
+geth --exec='admin.addPeer("enode://20532db16a180ede482d1ca64f20f8be2e0b67f9fcec355d7db4d5db3e88774cea656b9f051f6e4b1cd9b2fa88219480aa58c29c0f02b8eba7619f89e02f970e@192.168.30.27:30399")' attach ~/private-net/bzzd.ipc
 
 
